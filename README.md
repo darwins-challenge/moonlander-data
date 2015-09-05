@@ -10,7 +10,7 @@ This document describes the data that will be used in describe the [moonlander][
   "lander": {
     "x": 37.0, "y": 51.1,
     "vx": 0.2, "vy": -4.3,
-    "orientation": 0.3, "angular-velocity": 0.1
+    "orientation": 0.3, "angular-velocity": 0.1,
     "fuel": 0.5
   }
 }
