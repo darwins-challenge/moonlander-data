@@ -12,7 +12,8 @@ This document describes the data that will be used in describe the [moonlander][
     "vx": 0.2, "vy": -4.3,
     "orientation": 0.3, "angular-velocity": 0.1,
     "radius": 10.0,
-    "fuel": 0.5
+    "fuel": 0.5,
+    "crashed": false
   },
   "horizon": [0, 1, 4, 6, 10, 11, 12, 12, 12, 11, 5, 0, 1, 2, 1, 0]
 }
@@ -29,6 +30,7 @@ The `lander` holds the information of the actual `lander`. We describe its prope
 * **angular-velocity**: radians per seconds the orientation changes.
 * **radius**: the bounding radius of the lander.
 * **fuel**: percentage of the remaining fuel.
+* **crashed**: if the lander is crashed.
 
 ### `horizon`
 The `horizon` holds the height information for the horizon. It is an array with `height` above 'sea level'.
