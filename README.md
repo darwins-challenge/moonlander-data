@@ -1,7 +1,7 @@
 # moonlander-data
 Description of the Moonlander data
 
-This document describes the data that will be used in describe the [moonlander][] world.
+This document describes the data that will be used in the [moonlander][] world.
 
 ## Data
 
