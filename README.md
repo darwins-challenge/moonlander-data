@@ -27,7 +27,7 @@ The `lander` holds the information of the actual `lander`. We describe its prope
 * **vx**: the horizontal component of the velocity
 * **vy**: the vertical component of the velocity
 * **orientation**: the degrees from the vertical position in radians. Positive radians is in the clockwise direction, negative radians is in the counter-clockwise direction.
-* **angular-velocity**: radians per seconds the orientation changes.
+* **angular-velocity**: radians per seconds the orientation changes. The same directions are used as in the orientation.
 * **radius**: the bounding radius of the lander.
 * **fuel**: percentage of the remaining fuel.
 * **crashed**: if the lander is crashed.
