@@ -33,6 +33,8 @@ The `lander` holds the information of the actual `lander`. We describe its prope
 * **radius**: the bounding radius of the lander.
 * **fuel**: percentage of the remaining fuel.
 * **crashed**: if the lander is crashed.
+* **landed**: if the lander is landed.
+* **thrusting**: if the lander is thrusting. (Mainly for visualisation purposes)
 
 ### `horizon`
 The `horizon` holds the height information for the horizon. It is an array with `height` above 'sea level'.
