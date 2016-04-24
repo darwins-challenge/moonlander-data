@@ -6,8 +6,7 @@ This document describes the data that will be used in the [moonlander][] world.
 ## Data
 
 ```json
-{
-  "lander": {
+  {
     "x": 37.0, "y": 51.1,
     "vx": 0.2, "vy": -4.3,
     "orientation": 0.3, "angular-velocity": 0.1,
@@ -16,13 +15,8 @@ This document describes the data that will be used in the [moonlander][] world.
     "crashed": false,
     "landed": false,
     "thrusting": true
-  },
-  "horizon": [0, 1, 4, 6, 10, 11, 12, 12, 12, 11, 5, 0, 1, 2, 1, 0]
-}
+  }
 ```
-
-### `lander`
-The `lander` holds the information of the actual `lander`. We describe its properties below.
 
 * **x**: horizontal position
 * **y**: vertical position
@@ -35,8 +29,5 @@ The `lander` holds the information of the actual `lander`. We describe its prope
 * **crashed**: if the lander is crashed.
 * **landed**: if the lander is landed.
 * **thrusting**: if the lander is thrusting. (Mainly for visualisation purposes)
-
-### `horizon`
-The `horizon` holds the height information for the horizon. It is an array with `height` above 'sea level'.
 
 [moonlander]: https://en.wikipedia.org/wiki/Lunar_Lander_%281979_video_game%29
